@@ -340,3 +340,12 @@ footer {
 .image-size {
     height: 2%;
 }
+
+.most-popular-card {
+    position: relative;
+}
+
+.most-popular-card .indicator {
+    position: absolute;
+}
+
