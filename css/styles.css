@@ -347,5 +347,19 @@ footer {
 
 .most-popular-card .indicator {
     position: absolute;
+    background: #f7f7f7;
+    width: 59px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #354E57;
+    font-weight: 600;
+    top: 12px;
+    left: 17px;
+}
+
+.most-popular-card .indicator.gold {
+    color: #A67744;
 }
 

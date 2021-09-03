@@ -1,551 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sooth</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <!-- <link href="http://yoursite.com/themify-icons.css" rel="stylesheet"> -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <section class="section-container">
-      <div class="sooth-header">
-        <p class="text-center text-white">
-          Free Standard shipping on Orders over $99.99
-        </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sooth</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <!-- <link href="http://yoursite.com/themify-icons.css" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="section-container">
+    <div class="sooth-header">
+      <p class="text-center text-white">
+        Free Standard shipping on Orders over $99.99
+      </p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="element-style">
+            <ul class="navbar-nav me-auto mb-2 mb-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONSULTATION</a>
+              </li>
+              <li id="sooth-head-line">
+                <a class="nav-link">sooth</a>
+              </li>
+              <li id="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CART</a>
+              </li>
+              <li id="nav-item">
+                <a class="nav-link">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-
+    </nav>
+    <div class="nav-2-container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <div class="element-style">
-              <ul class="navbar-nav me-auto mb-2 mb-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONSULTATION</a>
-                </li>
-                <li id="sooth-head-line">
-                  <a class="nav-link">sooth</a>
-                </li>
-                <li id="search-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                    />
-                  </svg>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CART</a>
-                </li>
-                <li id="nav-item">
-                  <a class="nav-link">LOGIN</a>
-                </li>
-              </ul>
-            </div>
+        <div class="collapse navbar-collapse">
+          <div class="element-style-2">
+            <ul class="navbar-nav" id="navbar-nav-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acne</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sun</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ezcema</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Psoriasis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vitiligio</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
-      <div class="nav-2-container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="collapse navbar-collapse">
-            <div class="element-style-2">
-              <ul class="navbar-nav" id="navbar-nav-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Acne</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sun</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Ezcema</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Psoriasis</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Vitiligio</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    </div>
+    <div class="ezcema">
+      <div class="hands">
+        <img id="hands-edit" src="./Images/hands-crop.jpeg" alt="hands" />
       </div>
-      <div class="ezcema">
-        <div class="hands">
-          <img id="hands-edit" src="./Images/hands-crop.jpeg" alt="hands" />
+      <div class="plant-1">
+        <img src="./Images/plant-1.png" alt="Ezcema-Bottle" />
+      </div>
+      <div class="plant-2">
+        <img src="./Images/plant.png" alt="Ezcema-Bottle" />
+      </div>
+      <div class="bottle">
+        <img src="./Images/ezcema@2x.png" alt="Ezcema-Bottle" />
+      </div>
+      <div class="new-tag-header bg-light w3">
+        <h6>New!</h6>
+      </div>
+      <div class="jumbo-headers">
+        <h2>
+          All Natural <br />
+          Skin Remedies
+        </h2>
+        <p>
+          A healthier you from the inside out. We've sourced the <br />
+          cleanest ingredients to create a line of clean skin care <br />
+          treatments that leave you feeling your best
+        </p>
+        <button type="button" class="btn btn-outline-dark text-center btn-sm">
+          Shop Products
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="body-color">
+    <div class="solution text-center my-0">
+      <h3 style="font-weight: bold">Solutions for all skin health</h3>
+      <p>Explore our innovative skincare products</p>
+    </div>
+
+    <div class="show-list">
+      <div class="most">
+        <div class="most-1">
+          <a href="" style="text-decoration: none; color: black">Most Popular</a>
         </div>
-        <div class="plant-1">
-          <img src="./Images/plant-1.png" alt="Ezcema-Bottle" />
-        </div>
-        <div class="plant-2">
-          <img src="./Images/plant.png" alt="Ezcema-Bottle" />
-        </div>
-        <div class="bottle">
-          <img src="./Images/ezcema@2x.png" alt="Ezcema-Bottle" />
-        </div>
-        <div class="new-tag-header bg-light w3">
-          <h6>New!</h6>
-        </div>
-        <div class="jumbo-headers">
-          <h2>
-            All Natural <br />
-            Skin Remedies
-          </h2>
-          <p>
-            A healthier you from the inside out. We've sourced the <br />
-            cleanest ingredients to create a line of clean skin care <br />
-            treatments that leave you feeling your best
-          </p>
-          <button type="button" class="btn btn-outline-dark text-center btn-sm">
-            Shop Products
-          </button>
+        <div class="most-2">
+          <a href="" style="text-decoration: none; color: black">Shop all products</a>
         </div>
       </div>
-    </section>
 
-    <div class="body-color">
-      <div class="solution text-center my-0">
-        <h3 style="font-weight: bold">Solutions for all skin health</h3>
-        <p>Explore our innovative skincare products</p>
-      </div>
-
-      <div class="show-list">
-        <div class="most">
-          <div class="most-1">
-            <a href="" style="text-decoration: none; color: black"
-              >Most Popular</a
-            >
-          </div>
-          <div class="most-2">
-            <a href="" style="text-decoration: none; color: black"
-              >Shop all products</a
-            >
-          </div>
-        </div>
-
-        <div class="four-cards">
-          <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
-            <div class="col">
-              <div class="most-popular-card">
-                <div class="indicator">New!</div>
-                <img
-                  src="./Images/cream3.png"
-                  style="background-color: #ffffff"
-                  ;
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body" ;>
-                  <h5 class="card-title">Acne Cream</h5>
-                  <p class="card-text">All Natural Ingredients</p>
-                  <p class="Card-price1">$24.99</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    style="width: 100%"
-                  >
-                    Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/vitiligio.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Vitiligio Solution</h5>
+      <div class="four-cards">
+        <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
+          <div class="col">
+            <div class="most-popular-card">
+              <div class="indicator">New!</div>
+              <img src="./Images/cream3.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body" ;>
+                <h5 class="card-title">Acne Cream</h5>
                 <p class="card-text">All Natural Ingredients</p>
-                <p class="card-price2">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
+                <p class="Card-price1">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
                   Add to cart
                 </button>
               </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <div class="indicator">New!</div>                
+              <img src="/Images/vitiligio.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Vitiligio Solution</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-price2">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
             </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/ezcema.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/ezcema.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
 
               <div class="card-body">
                 <h5 class="card-title">Ezceme Cream</h5>
                 <p class="card-text">All Natural Ingredients</p>
                 <p class="card-list3">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
                   Add to cart
                 </button>
               </div>
             </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/suburn1@2x.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <div class="indicator gold">15% off</div>                
+              <img src="/Images/suburn1@2x.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Sunburn Ointment</h5>
                 <p class="card-text">All Natural Ingredients</p>
                 <p class="card-list4">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
                   Add to cart
                 </button>
               </div>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="clean-container">
-      <div class="row">
-        <div class="col-md-6 xs-6 sm-6 ">
-          <div class="image-padding">
-            <div class="jumbo-second-header">
-              <h2 class="clean-header-white">
-                Clean products that <br />deliver better solutions
-              </h2>
-              <p class="paragraph-white">
-                A healthier you from the inside out. We've sourced the <br />
-                cleanest ingredients to create a line of clean skin care <br />
-                treatments that leave you feeling your best
-              </p>
-              <button
-                style="color: white"
-                type="button"
-                class="btn btn-outline-dark"
-              >
-                Shop more
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6  xs-6 sm-6">
-          <div class="fluid-image">
-            <img
-              src="./Images/man-in-blue-top-2830332@2x.png"
-              class="img-fluid"
-              alt="blue-man"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="show-list">
-      <div class="most-second">
-        <div class="most-one-top">
-          <a href="" style="text-decoration: none; color: black">Top Rated</a>
-        </div>
-        <div class="most-two-shop2">
-          <div class="indicator">
-          <a href="" style="text-decoration: none; color: black"
-            >Shop all products</a
-          >
-        </div>
-        </div>
-      </div>
-
-      <div class="body-color">
-        <div class="four-cards">
-          <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
-            <div class="col">
-              <div class="most-popuar-card">
-              <img
-                src="./Images/psoriasis_treatment.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body" ;>
-                <h5 class="card-title">Psoriasis Cream</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="Card-price1">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/ezcema.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Ezcema Cream</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-price2">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/suburn1.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-
-              <div class="card-body">
-                <h5 class="card-title">Sunburn Ointment</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-list3">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/vitiligio_Balm.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Vitiligio Balm</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-list4">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="body-color">
-        <div class="four-cards">
-          <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/vitiligio.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body" ;>
-                <h5 class="card-title">Vitiligio Solution</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="Card-price1">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="./Images/cream3.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Acne Cream</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-price2">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/ezcema cream555.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-
-              <div class="card-body">
-                <h5 class="card-title">Acne Cream</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-list3">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-            <div class="col">
-              <div class="most-popular-card">
-              <img
-                src="/Images/ezema_dropper.png"
-                style="background-color: #ffffff"
-                ;
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Ezcema Oil</h5>
-                <p class="card-text">All Natural Ingredients</p>
-                <p class="card-list4">$24.99</p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  style="width: 100%"
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-           
-
-      <div class="clean-container-two">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-media-one">
-              <img src="/Images/sincerely-media-CjHJbp3zInA-unsplash.png" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="paragraph-two">
-              <h2 class="clean-header-white-3">All Natural Ingredients.</h2>
-              <p class="paragraph-white-3">
-                A healthier you from the inside out. We’ve sourced the cleanest
-                <br />
-                ingredients to create a line of clean skin care treatments that
-                <br />
-                leave you feeling your best <br />
-                <br />
-                <button
-                  style="color: black"
-                  type="button"
-                  class="btn btn-outline-dark"
-                >
-                  Shop more
-                </button>
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-   
-    <div class="show-list">
-      <div class="most-second">
-        <div class="most-one-top">
-          <a href="" style="text-decoration: none; color: black">Recommended</a>
+  </div>
+
+  <div class="clean-container">
+    <div class="row">
+      <div class="col-md-6 xs-6 sm-6 ">
+        <div class="image-padding">
+          <div class="jumbo-second-header">
+            <h2 class="clean-header-white">
+              Clean products that <br />deliver better solutions
+            </h2>
+            <p class="paragraph-white">
+              A healthier you from the inside out. We've sourced the <br />
+              cleanest ingredients to create a line of clean skin care <br />
+              treatments that leave you feeling your best
+            </p>
+            <button style="color: white" type="button" class="btn btn-outline-dark">
+              Shop more
+            </button>
+          </div>
         </div>
-        <div class="most-two-shop2">
-          <a href="" style="text-decoration: none; color: black"
-            >Shop all products</a
-          >
+      </div>
+      <div class="col-md-6  xs-6 sm-6">
+        <div class="fluid-image">
+          <img src="./Images/man-in-blue-top-2830332@2x.png" class="img-fluid" alt="blue-man" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="show-list">
+    <div class="most-second">
+      <div class="most-one-top">
+        <a href="" style="text-decoration: none; color: black">Top Rated</a>
+      </div>
+      <div class="most-two-shop2">
+        <div class="indicator">
+          <a href="" style="text-decoration: none; color: black">Shop all products</a>
         </div>
       </div>
     </div>
@@ -554,391 +237,470 @@
       <div class="four-cards">
         <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
           <div class="col">
-            <div>
-            <img
-              src="./Images/psoriasis_treatment.png"
-              style="background-color: #ffffff"
-              ;
-              class="card-img-top"
-              alt="..."
-            />
+            <div class="most-popuar-card">
+              <img src="./Images/psoriasis_treatment.png" style="background-color: #ffffff" ; class="card-img-top"
+                alt="..." />
+              <div class="card-body" ;>
+                <h5 class="card-title">Psoriasis Cream</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="Card-price1">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/ezcema.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ezcema Cream</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-price2">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/suburn1.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+
+              <div class="card-body">
+                <h5 class="card-title">Sunburn Ointment</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-list3">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/vitiligio_Balm.png" style="background-color: #ffffff" ; class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Vitiligio Balm</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-list4">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-color">
+      <div class="four-cards">
+        <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/vitiligio.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body" ;>
+                <h5 class="card-title">Vitiligio Solution</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="Card-price1">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="./Images/cream3.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Acne Cream</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-price2">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/ezcema cream555.png" style="background-color: #ffffff" ; class="card-img-top"
+                alt="..." />
+
+              <div class="card-body">
+                <h5 class="card-title">Acne Cream</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-list3">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="most-popular-card">
+              <img src="/Images/ezema_dropper.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ezcema Oil</h5>
+                <p class="card-text">All Natural Ingredients</p>
+                <p class="card-list4">$24.99</p>
+                <button type="button" class="btn btn-outline-dark" style="width: 100%">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="clean-container-two">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-media-one">
+            <img src="/Images/sincerely-media-CjHJbp3zInA-unsplash.png" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="paragraph-two">
+            <h2 class="clean-header-white-3">All Natural Ingredients.</h2>
+            <p class="paragraph-white-3">
+              A healthier you from the inside out. We’ve sourced the cleanest
+              <br />
+              ingredients to create a line of clean skin care treatments that
+              <br />
+              leave you feeling your best <br />
+              <br />
+              <button style="color: black" type="button" class="btn btn-outline-dark">
+                Shop more
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="show-list">
+    <div class="most-second">
+      <div class="most-one-top">
+        <a href="" style="text-decoration: none; color: black">Recommended</a>
+      </div>
+      <div class="most-two-shop2">
+        <a href="" style="text-decoration: none; color: black">Shop all products</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-color">
+    <div class="four-cards">
+      <div class="row row-cols-1 row-cols-md-4 g-4 w-70 h-150 mt-5">
+        <div class="col">
+          <div>
+            <img src="./Images/psoriasis_treatment.png" style="background-color: #ffffff" ; class="card-img-top"
+              alt="..." />
             <div class="card-body" ;>
               <h5 class="card-title">Psoriasis Cream</h5>
               <p class="card-text">All Natural Ingredients</p>
               <p class="Card-price1">$24.99</p>
-              <button
-                type="button"
-                class="btn btn-outline-dark"
-                style="width: 100%"
-              >
+              <button type="button" class="btn btn-outline-dark" style="width: 100%">
                 Add to cart
               </button>
             </div>
-            </div>
           </div>
-          <div class="col">
-            <div class="most-popular-card">
-            <img
-              src="/Images/suburn_balm.png"
-              style="background-color: #ffffff"
-              ;
-              class="card-img-top"
-              alt="..."
-            />
+        </div>
+        <div class="col">
+          <div class="most-popular-card">
+            <img src="/Images/suburn_balm.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Sunburn Balm</h5>
               <p class="card-text">All Natural Ingredients</p>
               <p class="card-price2">$24.99</p>
-              <button
-                type="button"
-                class="btn btn-outline-dark"
-                style="width: 100%"
-              >
+              <button type="button" class="btn btn-outline-dark" style="width: 100%">
                 Add to cart
               </button>
             </div>
           </div>
-          </div>
-          <div class="col">
-            <div class="most-popular-card">
-            <img
-              src="/Images/psoriasi_Cream.png"
-              style="background-color: #ffffff"
-              ;
-              class="card-img-top"
-              alt="..."
-            />
+        </div>
+        <div class="col">
+          <div class="most-popular-card">
+            <img src="/Images/psoriasi_Cream.png" style="background-color: #ffffff" ; class="card-img-top" alt="..." />
 
             <div class="card-body">
               <h5 class="card-title">Psoriasis Cream</h5>
               <p class="card-text">All Natural Ingredients</p>
               <p class="card-list3">$24.99</p>
-              <button
-                type="button"
-                class="btn btn-outline-dark"
-                style="width: 100%"
-              >
+              <button type="button" class="btn btn-outline-dark" style="width: 100%">
                 Add to cart
               </button>
             </div>
           </div>
-          </div>
-          <div class="col">
-            <div class="most-popular-card">
-            <img
-              src="/Images/vitiglio_treatment.png"
-              style="background-color: #ffffff"
-              ;
-              class="card-img-top"
-              alt="..."
-            />
+        </div>
+        <div class="col">
+          <div class="most-popular-card">
+            <img src="/Images/vitiglio_treatment.png" style="background-color: #ffffff" ; class="card-img-top"
+              alt="..." />
             <div class="card-body">
               <h5 class="card-title">Vitiligio Treatment</h5>
               <p class="card-text">All Natural Ingredients</p>
               <p class="card-list4">$24.99</p>
-              <button
-                type="button"
-                class="btn btn-outline-dark"
-                style="width: 100%"
-              >
+              <button type="button" class="btn btn-outline-dark" style="width: 100%">
                 Add to cart
               </button>
             </div>
           </div>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container-six">
-      <div class="ingredients">
-        <h3>We use the best ingredients</h3>
-        <p>Explore our innovative skincare products</p>
+  <div class="container-six">
+    <div class="ingredients">
+      <h3>We use the best ingredients</h3>
+      <p>Explore our innovative skincare products</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="image-uid">
+          <img src="/Images/cocoa powder 2222.png" alt="cocoa-powder" />
+          <h4>Cacao</h4>
+          <p>Lorem ipsum dolar et al</p>
+        </div>
       </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="image-uid">
+          <img src="/Images/yellow-juice.png" alt="cocoa-powder" />
+          <h4>Honey</h4>
+          <p>Lorem ipsum dolar et al</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="image-uid">
+          <img src="/Images/leave 2222.png" alt="cocoa-powder" />
+          <h4>Mint</h4>
+          <p>Lorem ipsum dolar et al</p>
+        </div>
+      </div>
+    </div>
+    <div class="second-small-img">
       <div class="row">
         <div class="col-md-4 col-sm-12 col-xs-12">
           <div class="image-uid">
-            <img src="/Images/cocoa powder 2222.png" alt="cocoa-powder" />
+            <img src="/Images/cocoa root 2222.png" alt="cocoa-powder" />
+            <h4>Coconut root</h4>
+            <p>Lorem ipsum dolar et al</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="image-uid">
+            <img src="/Images/oats.png" alt="cocoa-powder" />
+            <h4>Flour</h4>
+            <p>Lorem ipsum dolar et al</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="image-uid">
+            <img src="/Images/coconut root 2222.png" alt="cocoa-powder" />
             <h4>Cacao</h4>
             <p>Lorem ipsum dolar et al</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="image-uid">
-            <img src="/Images/yellow-juice.png" alt="cocoa-powder" />
-            <h4>Honey</h4>
-            <p>Lorem ipsum dolar et al</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="image-uid">
-            <img src="/Images/leave 2222.png" alt="cocoa-powder" />
-            <h4>Mint</h4>
-            <p>Lorem ipsum dolar et al</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="style1">
+    <div class="row text-center pt-5 pb-5">
+      <div class="col-md-4">
+        <span class="material-icons-outlined"> store </span>
+        <h6>We're offering new ways to shop.</h6>
+        <a href="#" class="link-1">Store locator</a>
+      </div>
+      <div class="col-md-4">
+        <span class="material-icons-outlined">shopping_cart</span>
+        <h6>Buy online, pickup in store</h6>
+        <a href="#" class="link-1">Learn more</a>
+      </div>
+      <div class="col-md-4">
+        <span class="material-icons-outlined">phone_in_talk</span>
+        <h6>Curbside pickup</h6>
+        <a href="#" class="link-1">Learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row m-5">
+      <div class="col-md-3">
+        <h2>Join the Sooth Family</h2>
+      </div>
+      <div class="vl col-md-3">
+        <p class="vg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="input-group p-3">
+          <input type="text" class="form-control" />
+          <div class="input-group-prepend">
+            <button type="button" class="btn btn-warning">Subscribe</button>
           </div>
         </div>
       </div>
-      <div class="second-small-img">
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <section class="footer-main">
+      <div class="container text-center text-md-start mt-5">
         <div class="row">
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="image-uid">
-              <img src="/Images/cocoa root 2222.png" alt="cocoa-powder" />
-              <h4>Coconut root</h4>
-              <p>Lorem ipsum dolar et al</p>
+          <div class="col-md-6">
+            <h1>sooth</h1>
+            <p>Explore our innovative skincare products</p>
+            <div class="input-group">
+              <input type="text" class="form-control" />
+              <button type="button" class="btn btn-outline-dark">
+                Primary
+              </button>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="image-uid">
-              <img src="/Images/oats.png" alt="cocoa-powder" />
-              <h4>Flour</h4>
-              <p>Lorem ipsum dolar et al</p>
-            </div>
+          <div class="col-md-2 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SHOP</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="link-2">Lorem, ipsum dolor.</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">fdjdsf dsjf</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">dsfds fdshf</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">sajhf jash</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="image-uid">
-              <img src="/Images/coconut root 2222.png" alt="cocoa-powder" />
-              <h4>Cacao</h4>
-              <p>Lorem ipsum dolar et al</p>
-            </div>
+
+          <div class="col-md-2 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="link-2">About us</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Sooth Stories (Blog)</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Contact us</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Learn More</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Stories</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MORE</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="link-2">Dolar at</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Lorem, ipsum dolor.</a>
+              </li>
+              <li>
+                <a href="#!" class="link-2">Vertaoi</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="style1">
-      <div class="row text-center pt-5 pb-5">
-        <div class="col-md-4">
-          <span class="material-icons-outlined"> store </span>
-          <h6>We're offering new ways to shop.</h6>
-          <a href="#" class="link-1">Store locator</a>
-        </div>
-        <div class="col-md-4">
-          <span class="material-icons-outlined">shopping_cart</span>
-          <h6>Buy online, pickup in store</h6>
-          <a href="#" class="link-1">Learn more</a>
-        </div>
-        <div class="col-md-4">
-          <span class="material-icons-outlined">phone_in_talk</span>
-          <h6>Curbside pickup</h6>
-          <a href="#" class="link-1">Learn more</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row m-5">
-        <div class="col-md-3">
-          <h2>Join the Sooth Family</h2>
-        </div>
-        <div class="vl col-md-3">
-          <p class="vg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-          </p>
-        </div>
-        <div class="col-md-6">
-          <div class="input-group p-3">
-            <input type="text" class="form-control" />
-            <div class="input-group-prepend">
-              <button type="button" class="btn btn-warning">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- footer -->
-
-    <footer class="text-center text-lg-start bg-light text-muted">
-      <section class="footer-main">
-        <div class="container text-center text-md-start mt-5">
-          <div class="row">
-            <div class="col-md-6">
-              <h1>sooth</h1>
-              <p>Explore our innovative skincare products</p>
-              <div class="input-group">
-                <input type="text" class="form-control" />
-                <button type="button" class="btn btn-outline-dark">
-                  Primary
-                </button>
-              </div>
-            </div>
-            <div class="col-md-2 mx-auto">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SHOP</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="link-2">Lorem, ipsum dolor.</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">fdjdsf dsjf</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">dsfds fdshf</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">sajhf jash</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-md-2 mx-auto">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="link-2">About us</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Sooth Stories (Blog)</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Contact us</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Learn More</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Stories</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-2 mx-auto">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MORE</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="link-2">Dolar at</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Lorem, ipsum dolor.</a>
-                </li>
-                <li>
-                  <a href="#!" class="link-2">Vertaoi</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="
+    </section>
+    <section class="
           d-flex
           justify-content-center justify-content-lg-between
           p-4
           border-bottom
           footer-main
           p-5
-        "
-      >
-        <div class="me-5 d-none d-lg-block">
-          <span>sooth all rights reserved</span>
-        </div>
-        <div>
-          <a href="">
-            <?xml version="1.0" ?><svg
-              height="50px"
-              version="1.1"
-              viewBox="0 0 60 60"
-              width="70px"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <title />
-              <defs />
-              <g
-                fill="none"
-                fill-rule="evenodd"
-                id="black"
-                stroke="none"
-                stroke-width="1"
-              >
-                <g id="facebook">
-                  <path
-                    d="M30,60 C46.5685433,60 60,46.5685433 60,30 C60,13.4314567 46.5685433,0 30,0 C13.4314567,0 0,13.4314567 0,30 C0,46.5685433 13.4314567,60 30,60 Z"
-                    fill="#000000"
-                    id="Facebook"
-                  />
-                  <path
-                    d="M25.4622239,47.314313 L25.4622239,29.9989613 L21.9432889,29.9989612 L21.9432889,24.2593563 L25.4622239,24.2593563 L25.4622239,20.7883864 C25.4622239,16.1066422 26.8619948,12.730619 31.9881023,12.730619 L38.0863595,12.730619 L38.0863595,18.45844 L33.7922546,18.45844 C31.6418944,18.45844 31.1518737,19.8873763 31.1518737,21.3837609 L31.1518737,24.2593553 L37.7694231,24.2593558 L36.8661728,29.9989613 L31.1518737,29.9989613 L31.1518737,47.3143123 L25.4622239,47.314313 Z"
-                    fill="#FFFFFF"
-                  />
-                </g>
+        ">
+      <div class="me-5 d-none d-lg-block">
+        <span>sooth all rights reserved</span>
+      </div>
+      <div>
+        <a href="">
+          <?xml version="1.0" ?><svg height="50px" version="1.1" viewBox="0 0 60 60" width="70px"
+            xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title />
+            <defs />
+            <g fill="none" fill-rule="evenodd" id="black" stroke="none" stroke-width="1">
+              <g id="facebook">
+                <path
+                  d="M30,60 C46.5685433,60 60,46.5685433 60,30 C60,13.4314567 46.5685433,0 30,0 C13.4314567,0 0,13.4314567 0,30 C0,46.5685433 13.4314567,60 30,60 Z"
+                  fill="#000000" id="Facebook" />
+                <path
+                  d="M25.4622239,47.314313 L25.4622239,29.9989613 L21.9432889,29.9989612 L21.9432889,24.2593563 L25.4622239,24.2593563 L25.4622239,20.7883864 C25.4622239,16.1066422 26.8619948,12.730619 31.9881023,12.730619 L38.0863595,12.730619 L38.0863595,18.45844 L33.7922546,18.45844 C31.6418944,18.45844 31.1518737,19.8873763 31.1518737,21.3837609 L31.1518737,24.2593553 L37.7694231,24.2593558 L36.8661728,29.9989613 L31.1518737,29.9989613 L31.1518737,47.3143123 L25.4622239,47.314313 Z"
+                  fill="#FFFFFF" />
               </g>
-            </svg>
-          </a>
-          <a href="">
-            <?xml version="1.0" ?><svg
-              height="50px"
-              version="1.1"
-              viewBox="0 0 60 60"
-              width="70px"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <title />
-              <defs />
-              <g
-                fill="none"
-                fill-rule="evenodd"
-                id="black"
-                stroke="none"
-                stroke-width="1"
-              >
-                <g id="instagram">
-                  <path
-                    d="M30,60 C46.5685433,60 60,46.5685433 60,30 C60,13.4314567 46.5685433,0 30,0 C13.4314567,0 0,13.4314567 0,30 C0,46.5685433 13.4314567,60 30,60 Z"
-                    fill="#000000"
-                    id="Instagram"
-                  />
-                  <path
-                    d="M21.7673614,24.2307692 L12.6923077,24.2307692 L12.6923077,23.0769231 L12.692308,23.0769231 C12.6923085,34.2046259 12.6923077,41.1538462 12.6923077,41.1538462 C12.6923077,46.1538451 17.6923077,46.1538451 17.6923077,46.1538451 L41.1538451,46.1538451 C41.1538451,46.1538451 46.1538451,46.1538451 46.1538462,41.1538462 L46.1538454,24.2307692 L46.1538462,24.2307692 L46.1538462,23.0769231 L36.3467878,23.0769231 C34.7679692,20.9749961 32.2543003,19.6153846 29.4230769,19.6153846 C26.5918536,19.6153846 24.0781847,20.9749961 22.4993661,23.0769231 L12.692308,23.0769231 C12.6923079,21.3763439 12.6923078,19.5781757 12.6923077,17.6923077 C12.6923077,14.53622 14.6844856,13.3723102 16.1538462,12.9430807 L16.1538462,19.6153846 L17.3076923,19.6153846 L17.3076923,12.7168978 L17.3076923,12.7168978 C17.5477091,12.6923077 17.6923077,12.6923077 17.6923077,12.6923077 L41.1538462,12.6923077 C41.1538462,12.6923077 46.1538451,12.6923077 46.1538451,17.6923077 L46.1538454,24.2307692 L37.0787925,24.2307692 C37.716079,25.4363757 38.0769231,26.8106634 38.0769231,28.2692308 C38.0769231,33.0486183 34.2024644,36.9230769 29.4230769,36.9230769 C24.6436894,36.9230769 20.7692308,33.0486183 20.7692308,28.2692308 C20.7692308,26.8106634 21.1300748,25.4363757 21.7673614,24.2307692 L21.7673614,24.2307692 Z M40.0785289,15 C38.9730725,15 38.0769231,15.9014423 38.0769231,17.0016058 L38.0769231,18.767625 C38.0769231,19.8730813 38.9783654,20.7692308 40.0785289,20.7692308 L41.8445481,20.7692308 C42.9500044,20.7692308 43.8461538,19.8677885 43.8461538,18.767625 L43.8461538,17.0016058 C43.8461538,15.8961494 42.9447115,15 41.8445481,15 L40.0785289,15 Z M20.7692308,12.6923077 L20.7692308,19.6153846 L21.9230769,19.6153846 L21.9230769,12.6923077 L20.7692308,12.6923077 Z M18.4615385,12.6923077 L18.4615385,19.6153846 L19.6153846,19.6153846 L19.6153846,12.6923077 L18.4615385,12.6923077 Z M29.4230769,35.1923077 C33.2465869,35.1923077 36.3461538,32.0927408 36.3461538,28.2692308 C36.3461538,24.4457208 33.2465869,21.3461538 29.4230769,21.3461538 C25.5995669,21.3461538 22.5,24.4457208 22.5,28.2692308 C22.5,32.0927408 25.5995669,35.1923077 29.4230769,35.1923077 Z M29.4230769,32.8846154 C31.9720836,32.8846154 34.0384615,30.8182374 34.0384615,28.2692308 C34.0384615,25.7202241 31.9720836,23.6538462 29.4230769,23.6538462 C26.8740703,23.6538462 24.8076923,25.7202241 24.8076923,28.2692308 C24.8076923,30.8182374 26.8740703,32.8846154 29.4230769,32.8846154 Z"
-                    fill="#FFFFFF"
-                  />
-                </g>
+            </g>
+          </svg>
+        </a>
+        <a href="">
+          <?xml version="1.0" ?><svg height="50px" version="1.1" viewBox="0 0 60 60" width="70px"
+            xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title />
+            <defs />
+            <g fill="none" fill-rule="evenodd" id="black" stroke="none" stroke-width="1">
+              <g id="instagram">
+                <path
+                  d="M30,60 C46.5685433,60 60,46.5685433 60,30 C60,13.4314567 46.5685433,0 30,0 C13.4314567,0 0,13.4314567 0,30 C0,46.5685433 13.4314567,60 30,60 Z"
+                  fill="#000000" id="Instagram" />
+                <path
+                  d="M21.7673614,24.2307692 L12.6923077,24.2307692 L12.6923077,23.0769231 L12.692308,23.0769231 C12.6923085,34.2046259 12.6923077,41.1538462 12.6923077,41.1538462 C12.6923077,46.1538451 17.6923077,46.1538451 17.6923077,46.1538451 L41.1538451,46.1538451 C41.1538451,46.1538451 46.1538451,46.1538451 46.1538462,41.1538462 L46.1538454,24.2307692 L46.1538462,24.2307692 L46.1538462,23.0769231 L36.3467878,23.0769231 C34.7679692,20.9749961 32.2543003,19.6153846 29.4230769,19.6153846 C26.5918536,19.6153846 24.0781847,20.9749961 22.4993661,23.0769231 L12.692308,23.0769231 C12.6923079,21.3763439 12.6923078,19.5781757 12.6923077,17.6923077 C12.6923077,14.53622 14.6844856,13.3723102 16.1538462,12.9430807 L16.1538462,19.6153846 L17.3076923,19.6153846 L17.3076923,12.7168978 L17.3076923,12.7168978 C17.5477091,12.6923077 17.6923077,12.6923077 17.6923077,12.6923077 L41.1538462,12.6923077 C41.1538462,12.6923077 46.1538451,12.6923077 46.1538451,17.6923077 L46.1538454,24.2307692 L37.0787925,24.2307692 C37.716079,25.4363757 38.0769231,26.8106634 38.0769231,28.2692308 C38.0769231,33.0486183 34.2024644,36.9230769 29.4230769,36.9230769 C24.6436894,36.9230769 20.7692308,33.0486183 20.7692308,28.2692308 C20.7692308,26.8106634 21.1300748,25.4363757 21.7673614,24.2307692 L21.7673614,24.2307692 Z M40.0785289,15 C38.9730725,15 38.0769231,15.9014423 38.0769231,17.0016058 L38.0769231,18.767625 C38.0769231,19.8730813 38.9783654,20.7692308 40.0785289,20.7692308 L41.8445481,20.7692308 C42.9500044,20.7692308 43.8461538,19.8677885 43.8461538,18.767625 L43.8461538,17.0016058 C43.8461538,15.8961494 42.9447115,15 41.8445481,15 L40.0785289,15 Z M20.7692308,12.6923077 L20.7692308,19.6153846 L21.9230769,19.6153846 L21.9230769,12.6923077 L20.7692308,12.6923077 Z M18.4615385,12.6923077 L18.4615385,19.6153846 L19.6153846,19.6153846 L19.6153846,12.6923077 L18.4615385,12.6923077 Z M29.4230769,35.1923077 C33.2465869,35.1923077 36.3461538,32.0927408 36.3461538,28.2692308 C36.3461538,24.4457208 33.2465869,21.3461538 29.4230769,21.3461538 C25.5995669,21.3461538 22.5,24.4457208 22.5,28.2692308 C22.5,32.0927408 25.5995669,35.1923077 29.4230769,35.1923077 Z M29.4230769,32.8846154 C31.9720836,32.8846154 34.0384615,30.8182374 34.0384615,28.2692308 C34.0384615,25.7202241 31.9720836,23.6538462 29.4230769,23.6538462 C26.8740703,23.6538462 24.8076923,25.7202241 24.8076923,28.2692308 C24.8076923,30.8182374 26.8740703,32.8846154 29.4230769,32.8846154 Z"
+                  fill="#FFFFFF" />
               </g>
-            </svg>
-          </a>
-          <a href="">
-            <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-            <svg
-              enable-background="new 0 0 56.693 56.693"
-              height="56.693px"
-              id="Layer_1"
-              version="1.1"
-              viewBox="0 0 56.693 56.693"
-              width="56.693px"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <path
-                d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623  C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656  c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656  c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217  c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777  c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483  c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959  c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977  C43.018,22.849,41.965,23.942,40.752,24.817z"
-              />
-            </svg>
-          </a>
-          <a href="">
-            <!-- <?xml version="1.0" ?><svg enable-background="new 0 0 515.91 728.5" height="40px" id="Layer_1" version="1.1" viewBox="0 0 512.00003 512" width="512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs7"/><rect height="512" id="rect2984" rx="64" ry="64" style="fill:#cf2200;fill-opacity:1;fill-rule:nonzero;stroke:none" width="512" x="1.5e-005" y="0"/><path d="m 371.28893,348.58667 h -21.95556 l 0.10223,-12.75111 c 0,-5.66667 4.65333,-10.30223 10.34222,-10.30223 h 1.39999 c 5.69778,0 10.36444,4.63556 10.36444,10.30223 l -0.25333,12.75111 z M 288.9467,321.26222 c -5.56889,0 -10.12445,3.74222 -10.12445,8.32445 V 391.6 c 0,4.57333 4.55556,8.30667 10.12445,8.30667 5.59111,0 10.15111,-3.73334 10.15111,-8.30667 v -62.01333 c 0,-4.58667 -4.55999,-8.32445 -10.15111,-8.32445 z M 422.66666,286.57333 V 404.54667 C 422.66666,432.84444 398.12446,456 368.13337,456 H 143.87114 C 113.8667,456 89.333365,432.84444 89.333365,404.54667 V 286.57333 c 0,-28.29777 24.533335,-51.45777 54.537775,-51.45777 h 224.26223 c 29.9911,0 54.5333,23.16 54.5333,51.45777 z m -263.83552,130.78223 0,-124.27112 27.8,0.009 V 274.68011 L 112.52447,274.569 v 18.10222 l 23.13334,0.0667 V 417.3557 h 23.19111 z m 83.33334,-105.76 h -23.17777 v 66.36 c 0,9.6 0.58222,14.4 -0.0444,16.09333 -1.88445,5.14667 -10.35555,10.60889 -13.65778,0.55555 -0.56,-1.76 -0.0667,-7.07111 -0.0756,-16.19111 l -0.0933,-66.81777 h -23.0489 l 0.0711,65.76444 c 0,10.08 -0.22667,17.6 0.08,21.01778 0.56444,6.03111 0.36443,13.06666 5.96,17.08 10.42666,7.51555 30.41333,-1.12 35.41333,-11.85778 l -0.0444,13.70222 18.61333,0.0222 V 311.59554 z m 74.14666,75.99111 -0.0489,-55.23111 c 0,-21.04889 -15.76444,-33.65778 -37.14221,-16.62667 l 0.0933,-41.06222 -23.15555,0.0356 -0.11111,141.73334 19.03555,-0.28 1.73334,-8.82667 c 24.33777,22.32444 39.63111,7.03111 39.59555,-19.74222 z m 72.53778,-7.32 -17.38221,0.0933 c 0,0.68889 -0.0444,1.48444 -0.0444,2.35111 v 9.69778 c 0,5.18667 -4.28889,9.41333 -9.49778,9.41333 h -3.40445 c -5.21777,0 -9.50221,-4.22666 -9.50221,-9.41333 v -1.07556 -10.66666 -13.76445 h 39.7955 v -14.97778 c 0,-10.94666 -0.28,-21.88888 -1.18666,-28.14666 -2.84445,-19.79556 -30.63112,-22.93778 -44.66667,-12.80445 -4.40889,3.16445 -7.77333,7.4 -9.72889,13.09334 -1.97778,5.69333 -2.95555,13.47111 -2.95555,23.35111 v 32.92889 c 0.004,54.74666 66.50222,47.00889 58.56888,-0.08 z M 299.70226,201.47556 c 1.19556,2.90666 3.05334,5.26222 5.57334,7.04 2.48888,1.75111 5.67555,2.63111 9.48444,2.63111 3.34222,0 6.30222,-0.90223 8.87999,-2.76445 2.5689,-1.85333 4.73334,-4.62222 6.49779,-8.31555 l -0.43556,9.09333 h 25.83556 V 99.28889 H 335.20004 V 184.8 c 0,4.63111 -3.81333,8.42222 -8.47556,8.42222 -4.63555,0 -8.46222,-3.79111 -8.46222,-8.42222 V 99.28889 H 297.0356 v 74.10667 c 0,9.44 0.16887,15.73333 0.44888,18.92444 0.29778,3.16889 1.02223,6.20889 2.21778,9.15556 z m -78.29333,-62.05334 c 0,-10.54666 0.88,-18.78222 2.62667,-24.72 1.76,-5.91555 4.92,-10.67111 9.49776,-14.25778 4.56445,-3.60444 10.4089,-5.40888 17.51557,-5.40888 5.97778,0 11.09777,1.17333 15.37778,3.47111 4.29777,2.31111 7.60889,5.31111 9.91111,9.01333 2.34222,3.71556 3.93333,7.53333 4.78222,11.44 0.86667,3.96 1.29333,9.93333 1.29333,17.99111 v 27.78667 c 0,10.19111 -0.40889,17.68889 -1.2,22.44889 -0.78666,4.77333 -2.47555,9.2 -5.08889,13.35111 -2.58222,4.10666 -5.91111,7.17778 -9.94666,9.13778 -4.08,1.97777 -8.74667,2.94666 -14.01778,2.94666 -5.88889,0 -10.84889,-0.81333 -14.93778,-2.51111 -4.10222,-1.68889 -7.27111,-4.23555 -9.52889,-7.61778 -2.28,-3.38666 -3.88444,-7.51111 -4.85333,-12.32 -0.97333,-4.80444 -1.43556,-12.03111 -1.43556,-21.66222 v -29.08889 z m 20.23555,43.64445 c 0,6.22222 4.63112,11.30222 10.27112,11.30222 5.64444,0 10.25333,-5.08 10.25333,-11.30222 v -58.48889 c 0,-6.21334 -4.60889,-11.29334 -10.25333,-11.29334 -5.64,0 -10.27112,5.08 -10.27112,11.29334 v 58.48889 z M 170.14226,212.6 h 24.37334 l 0.0444,-84.26667 28.8,-72.18666 H 196.70222 L 181.39111,109.76444 165.86221,56 H 139.48 l 30.64,72.37333 0.0444,84.22667 z" id="YouTube" style="fill:#ffffff;fill-opacity:1"/></svg> -->
-          </a>
-        </div>
-      </section>
-    </footer>
+            </g>
+          </svg>
+        </a>
+        <a href="">
+          <?xml version="1.0" ?>
+          <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1"
+            viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623  C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656  c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656  c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217  c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777  c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483  c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959  c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977  C43.018,22.849,41.965,23.942,40.752,24.817z" />
+          </svg>
+        </a>
+        <a href="">
+          <!-- <?xml version="1.0" ?><svg enable-background="new 0 0 515.91 728.5" height="40px" id="Layer_1" version="1.1" viewBox="0 0 512.00003 512" width="512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs7"/><rect height="512" id="rect2984" rx="64" ry="64" style="fill:#cf2200;fill-opacity:1;fill-rule:nonzero;stroke:none" width="512" x="1.5e-005" y="0"/><path d="m 371.28893,348.58667 h -21.95556 l 0.10223,-12.75111 c 0,-5.66667 4.65333,-10.30223 10.34222,-10.30223 h 1.39999 c 5.69778,0 10.36444,4.63556 10.36444,10.30223 l -0.25333,12.75111 z M 288.9467,321.26222 c -5.56889,0 -10.12445,3.74222 -10.12445,8.32445 V 391.6 c 0,4.57333 4.55556,8.30667 10.12445,8.30667 5.59111,0 10.15111,-3.73334 10.15111,-8.30667 v -62.01333 c 0,-4.58667 -4.55999,-8.32445 -10.15111,-8.32445 z M 422.66666,286.57333 V 404.54667 C 422.66666,432.84444 398.12446,456 368.13337,456 H 143.87114 C 113.8667,456 89.333365,432.84444 89.333365,404.54667 V 286.57333 c 0,-28.29777 24.533335,-51.45777 54.537775,-51.45777 h 224.26223 c 29.9911,0 54.5333,23.16 54.5333,51.45777 z m -263.83552,130.78223 0,-124.27112 27.8,0.009 V 274.68011 L 112.52447,274.569 v 18.10222 l 23.13334,0.0667 V 417.3557 h 23.19111 z m 83.33334,-105.76 h -23.17777 v 66.36 c 0,9.6 0.58222,14.4 -0.0444,16.09333 -1.88445,5.14667 -10.35555,10.60889 -13.65778,0.55555 -0.56,-1.76 -0.0667,-7.07111 -0.0756,-16.19111 l -0.0933,-66.81777 h -23.0489 l 0.0711,65.76444 c 0,10.08 -0.22667,17.6 0.08,21.01778 0.56444,6.03111 0.36443,13.06666 5.96,17.08 10.42666,7.51555 30.41333,-1.12 35.41333,-11.85778 l -0.0444,13.70222 18.61333,0.0222 V 311.59554 z m 74.14666,75.99111 -0.0489,-55.23111 c 0,-21.04889 -15.76444,-33.65778 -37.14221,-16.62667 l 0.0933,-41.06222 -23.15555,0.0356 -0.11111,141.73334 19.03555,-0.28 1.73334,-8.82667 c 24.33777,22.32444 39.63111,7.03111 39.59555,-19.74222 z m 72.53778,-7.32 -17.38221,0.0933 c 0,0.68889 -0.0444,1.48444 -0.0444,2.35111 v 9.69778 c 0,5.18667 -4.28889,9.41333 -9.49778,9.41333 h -3.40445 c -5.21777,0 -9.50221,-4.22666 -9.50221,-9.41333 v -1.07556 -10.66666 -13.76445 h 39.7955 v -14.97778 c 0,-10.94666 -0.28,-21.88888 -1.18666,-28.14666 -2.84445,-19.79556 -30.63112,-22.93778 -44.66667,-12.80445 -4.40889,3.16445 -7.77333,7.4 -9.72889,13.09334 -1.97778,5.69333 -2.95555,13.47111 -2.95555,23.35111 v 32.92889 c 0.004,54.74666 66.50222,47.00889 58.56888,-0.08 z M 299.70226,201.47556 c 1.19556,2.90666 3.05334,5.26222 5.57334,7.04 2.48888,1.75111 5.67555,2.63111 9.48444,2.63111 3.34222,0 6.30222,-0.90223 8.87999,-2.76445 2.5689,-1.85333 4.73334,-4.62222 6.49779,-8.31555 l -0.43556,9.09333 h 25.83556 V 99.28889 H 335.20004 V 184.8 c 0,4.63111 -3.81333,8.42222 -8.47556,8.42222 -4.63555,0 -8.46222,-3.79111 -8.46222,-8.42222 V 99.28889 H 297.0356 v 74.10667 c 0,9.44 0.16887,15.73333 0.44888,18.92444 0.29778,3.16889 1.02223,6.20889 2.21778,9.15556 z m -78.29333,-62.05334 c 0,-10.54666 0.88,-18.78222 2.62667,-24.72 1.76,-5.91555 4.92,-10.67111 9.49776,-14.25778 4.56445,-3.60444 10.4089,-5.40888 17.51557,-5.40888 5.97778,0 11.09777,1.17333 15.37778,3.47111 4.29777,2.31111 7.60889,5.31111 9.91111,9.01333 2.34222,3.71556 3.93333,7.53333 4.78222,11.44 0.86667,3.96 1.29333,9.93333 1.29333,17.99111 v 27.78667 c 0,10.19111 -0.40889,17.68889 -1.2,22.44889 -0.78666,4.77333 -2.47555,9.2 -5.08889,13.35111 -2.58222,4.10666 -5.91111,7.17778 -9.94666,9.13778 -4.08,1.97777 -8.74667,2.94666 -14.01778,2.94666 -5.88889,0 -10.84889,-0.81333 -14.93778,-2.51111 -4.10222,-1.68889 -7.27111,-4.23555 -9.52889,-7.61778 -2.28,-3.38666 -3.88444,-7.51111 -4.85333,-12.32 -0.97333,-4.80444 -1.43556,-12.03111 -1.43556,-21.66222 v -29.08889 z m 20.23555,43.64445 c 0,6.22222 4.63112,11.30222 10.27112,11.30222 5.64444,0 10.25333,-5.08 10.25333,-11.30222 v -58.48889 c 0,-6.21334 -4.60889,-11.29334 -10.25333,-11.29334 -5.64,0 -10.27112,5.08 -10.27112,11.29334 v 58.48889 z M 170.14226,212.6 h 24.37334 l 0.0444,-84.26667 28.8,-72.18666 H 196.70222 L 181.39111,109.76444 165.86221,56 H 139.48 l 30.64,72.37333 0.0444,84.22667 z" id="YouTube" style="fill:#ffffff;fill-opacity:1"/></svg> -->
+        </a>
+      </div>
+    </section>
+  </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
